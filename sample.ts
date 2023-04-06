@@ -1,0 +1,3 @@
+type sample = {
+name:string
+}
