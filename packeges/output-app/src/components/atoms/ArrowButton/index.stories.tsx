@@ -1,4 +1,4 @@
-import { ArrowButton } from "."
+import { ArrowButton } from "./"
 import type { ComponentStoryObj, Meta } from "@storybook/react"
 import type { ComponentProps } from "react"
 type ArrowButtonType = typeof ArrowButton
