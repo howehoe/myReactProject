@@ -2,10 +2,10 @@
 to: <%= path %>/index.stories.tsx
 ---
 import { <%= componentName %> } from "."
-import type { ComponentStoryObj, Meta } from "@storybook/react"
+import type { StoryObj, Meta } from "@storybook/react"
 import type { ComponentProps } from "react"
 type <%= componentName %>Type = typeof <%= componentName %>
-type <%= componentName %>Story = ComponentStoryObj<<%= componentName %>Type>
+type <%= componentName %>Story = StoryObj<<%= componentName %>Type>
 const meta: Meta<ComponentProps<<%= componentName %>Type>> = {
   component: <%= componentName %>,
 }
