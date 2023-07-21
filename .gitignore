@@ -1,1 +1,18 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# build
+/dist
+/storybook-static
+
+# misc
+.DS_Store
+.vscode
+
+logs
+*.log
+npm-debug.log*
 node_modules

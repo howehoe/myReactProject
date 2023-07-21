@@ -1,0 +1,7 @@
+node_modules
+dist
+build
+README.md
+CHANGELOG.md
+src/assets/**/*
+.github
